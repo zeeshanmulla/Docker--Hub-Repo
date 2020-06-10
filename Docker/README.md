@@ -18,7 +18,7 @@ go to app folder
 
 docker build -t diabetis:v1 .  #note v1 '.' is necessary
 
-docker -d -p 5000:5000 --name diabetis diabetis:v1
+docker -d -p 5000:5000 --name diabetis money_api:v1
 
 see if you want to see output remove -d from dockerker build 
 
@@ -48,7 +48,7 @@ after building is done .
 
 tag our image to yours dockerhub username:
 
-docker tag diabetis:v1 mullazeeshan/diabetis:v1
+docker tag diabetis:v1 mullazeeshan/money_api:v1
 
 then login
 
@@ -56,7 +56,7 @@ docker login
 
 give ur username and password
 
-docker push mullazeeshan/diabetis:v1 
+docker push mullazeeshan/money_api:v1 
 
 ## Deployment in kubernates:
 
