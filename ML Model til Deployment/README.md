@@ -1,12 +1,13 @@
 Inspiration from Krish Naik's Playlist of Docker [link](https://www.youtube.com/playlist?list=PLZoTAELRMXVNKtpy0U_Mx9N26w8n0hIbs)
-![Capture](https://user-images.githubusercontent.com/38804803/82556710-e8fce700-9b87-11ea-8e78-6fe0269268a4.PNG)
+![all in one](https://user-images.githubusercontent.com/29397302/84295391-25f54180-ab68-11ea-8109-da69d3964d24.png)
+
 
 Buildinguilding a docker images we need to install docker 
 Using flasgger for ui 
 
 for ubuntu: #apt-get install docker.io
 
-for windows: https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe
+for windows: [link](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe)
 after installing build a docker images
 clone this repo by using git.
 
