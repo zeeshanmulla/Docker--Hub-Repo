@@ -1,7 +1,10 @@
 ## Streamlit
 To run it
+
 Create new environment with all requirements installed in it(including Streamlit)
+
 Open cmd or Anaconda Prompt
+
 type: streamlit run filename.py
 ![cmd](https://user-images.githubusercontent.com/29397302/84934365-d9c07900-b0f4-11ea-811f-5e24d1eef988.JPG)
 
