@@ -66,14 +66,14 @@ def predict_diabetes(Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI
             description: The output values
         
     """
-    Pregnancies = request.args.get('Pregnancies')
-    Glucose = request.args.get('Glucose')
-    BloodPressure = request.args.get('BloodPressure')
-    SkinThickness = request.args.get('SkinThickness')
-    Insulin = request.args.get('Insulin')
-    BMI = request.args.get('BMI')
-    DiabetesPedigreeFunction = request.args.get('DiabetesPedigreeFunction')
-    Age = request.args.get('Age')
+    #Pregnancies = request.args.get('Pregnancies')
+    #Glucose = request.args.get('Glucose')
+    #BloodPressure = request.args.get('BloodPressure')
+    #SkinThickness = request.args.get('SkinThickness')
+    #Insulin = request.args.get('Insulin')
+    #BMI = request.args.get('BMI')
+    #DiabetesPedigreeFunction = request.args.get('DiabetesPedigreeFunction')
+    #Age = request.args.get('Age')
     pred = np.array([[Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]]).astype(np.float64)
     prediction = rf.predict(pred)
     print(prediction)
