@@ -1,6 +1,8 @@
 ## Streamlit
-To run it
 
+Install Streamlit: pip install streamlit
+
+To run it:
 Create new environment with all requirements installed in it(including Streamlit)
 
 Open cmd or Anaconda Prompt
