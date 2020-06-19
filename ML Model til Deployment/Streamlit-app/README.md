@@ -1,4 +1,4 @@
-## Streamlit
+### Streamlit app on diabetes prediciton deployed on [Heroku Link]("https://diabetes-prediction-streamlit.herokuapp.com/")
 
 Install Streamlit: pip install streamlit
 
