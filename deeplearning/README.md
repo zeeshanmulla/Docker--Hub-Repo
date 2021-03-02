@@ -20,4 +20,4 @@ Alternatively you can use mount bind in your host machine directoy (local direct
 Get vscode by visiting `http://localhost:5000` and jupyter notebook by `http://localhost:8888` in your browser.
 
 ## Contributors
-* [Zeeshan Mulla(https://zeeshanmulla.me)
+* [Zeeshan Mulla](https://zeeshanmulla.me)
